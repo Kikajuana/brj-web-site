@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('body')
     @include('partials.hero')
-   <div>
-     <h1>Hello world!!!</h1>
-   </div> 
+    @include('partials.service') 
+    @include('partials.apropos')  
 @endsection
