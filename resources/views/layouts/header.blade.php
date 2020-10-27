@@ -35,8 +35,14 @@
                                         
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
-                                                Shop
+                                               Mon Compte 
                                             </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item">Login</a></li>
+                                                <li><a class="dropdown-item">Profil</a></li>
+                                                <li><a class="dropdown-item">Message</a></li>
+                                                <li><a class="dropdown-item">Deconnecter</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </nav>
