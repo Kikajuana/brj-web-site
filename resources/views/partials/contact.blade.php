@@ -50,11 +50,20 @@
             <div class="overflow-hidden mb-3">
                 <h4 class="pt-5 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="200" data-plugin-options="{'accY': -200}" style="animation-delay: 200ms;">Restons  <strong>Connecter</strong></h4>
             </div>
-            <div class="overflow-hidden mb-3">
+            {{-- <div class="overflow-hidden mb-3">
                 <p class="lead text-4 mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="400" data-plugin-options="{'accY': -200}" style="animation-delay: 400ms;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius.</p>
             </div>
             <div class="overflow-hidden">
                 <p class="mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="600" data-plugin-options="{'accY': -200}" style="animation-delay: 600ms;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius.</p>
+            </div> --}}
+            <div class="header-nav-features order-1 order-lg-2">
+                <div class="header-nav-feature header-nav-features-social-icons d-inline-flex">
+                    <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean ml-0">
+                        <li class="social-icons-facebook"><a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f" style="font-size: 26px"></i></a></li>
+                        <li class="social-icons-twitter"><a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter" style="font-size: 26px"></i></a></li>
+                        <li class="social-icons-linkedin"><a href="#" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in" style="font-size: 26px"></i></a></li>
+                    </ul>
+                </div>
             </div>
 
         </div>
