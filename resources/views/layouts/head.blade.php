@@ -1,7 +1,7 @@
 <head>
 <!-- Basic Page Needs
 ================================================== -->
-<title>BRJ</title>
+<title>{{ config('app.name', 'BRJ') }}</title>
 <meta charset="utf-8">
 <!-- Favicon -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />

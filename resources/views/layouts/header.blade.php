@@ -32,18 +32,23 @@
                                                A Propos 
                                             </a>
                                         </li>
-                                        
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
-                                               Mon Compte 
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                            <li><a href="{{ route('login')}}" class="dropdown-item">Login</a></li>
-                                                <li><a class="dropdown-item">Profil</a></li>
-                                                <li><a class="dropdown-item">Message</a></li>
-                                                <li><a class="dropdown-item">Deconnecter</a></li>
-                                            </ul>
-                                        </li>
+                                        @if(Auth::check())
+                                            <li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                                Mon Compte 
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                <li><a href="{{ route('login')}}" class="dropdown-item">Login</a></li>
+                                                    <li><a class="dropdown-item">Profil</a></li>
+                                                    <li><a class="dropdown-item">Message</a></li>
+                                                    <li><a class="dropdown-item">Deconnecter</a></li>
+                                                </ul>
+                                            </li>
+                                        @else
+                                            <li>
+                                                <a href="{{ route('register')}}" class="dropdown-item">Enregister un compte</a>
+                                            </li>
+                                        @endif   
                                     </ul>
                                 </nav>
                             </div>
