@@ -39,9 +39,19 @@
                                                 </a>
                                                 <ul class="dropdown-menu">
                                                 <li><a href="{{ route('login')}}" class="dropdown-item">Login</a></li>
-                                                    <li><a class="dropdown-item">Profil</a></li>
+                                                    <li><a href="{{ route('profile.show') }}" class="dropdown-item">Profil</a></li>
                                                     <li><a class="dropdown-item">Message</a></li>
-                                                    <li><a class="dropdown-item">Deconnecter</a></li>
+                                                    <li>
+                                                            <form method="POST" action="{{ route('logout') }}">
+                                                                @csrf
+                                    
+                                                                <a href="{{ route('logout') }}" class="dropdown-item"
+                                                                                    onclick="event.preventDefault();
+                                                                                                this.closest('form').submit();">
+                                                                    {{ __('Logout') }}
+                                                                </a>
+                                                            </form> 
+                                                    </li>
                                                 </ul>
                                             </li>
                                         @else
